@@ -1,0 +1,80 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+<h1 id="title">CS:GO Survey Form</h1>
+
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+
+<div id="body">
+
+<form id="survey-form">
+  
+  <label id="name-label" for="name">
+  <p>Name:</p>
+  </label>
+  
+  <input id="name" type="text" placeholder="Enter Your Name" required>
+  
+  
+   <label id="email-label" for="email">
+  <p>Email:</p>
+  </label>
+  
+  <input id="email" type="email" placeholder="Enter Your Email" required>
+  
+   <label id="number-label" for="number">
+  <p>Age:</p>
+  </label>
+  
+  <input id="number" type="number" placeholder="Enter Your Age" min="6" max="100" required>
+  
+  <p>Which Leadership Quality Do You Possess in playing CS:GO</p>
+  <select id="dropdown">
+    
+    <option value="default">Nothing.</option>
+    <option value="Rush B.">Rush B.</option>
+    <option value="Drop me AWP pls.">Drop me AWP pls.</option>
+    <option value="Cyka Blyat.">Cyka Blyat.</option>
+    <option value="S1mple.">S1mple.</option>
+    <option value="Smurf.">Smurf.</option>
+    
+  </select>
+  
+  <p>Which rifle do like to use the most?</p>
+  
+  <input type="radio" name="rifle" value="1">M4A1s</input>
+  <br>
+  <input type="radio" name="rifle" value="2">Kalashnikov AK-47</input>
+  <br>
+ <input type="radio" name="rifle" value="3">AWP</input>
+<br>
+ <input type="radio" name="rifle" value="4">Styer AUG</input>
+<br>
+ <input type="radio" name="rifle" value="5">FAMAS</input>
+<br>
+ <input type="radio" name="rifle" value="6">SG53</input>
+<br>
+ <input type="radio" name="rifle" value="7">Gaygun</input>
+
+<p>Which Of The other map Do You play in MatchMaking?</p>
+
+<input type="checkbox" name="map" value="1">Inferno</input>
+<br>
+ <input type="checkbox" name="map" value="2">Mirage </input>
+<br>
+ <input type="checkbox" name="map" value="3">DUST II</input>
+<br>
+ <input type="checkbox" name="map" value="4">Train</input>
+<br>
+ <input type="checkbox" name="map" value="5">Overpass</input>
+<br>
+<P>Any comments or suggestions?</P>
+<textarea id="comment" rows="4" cols="40">Comments are Welcome</textarea>
+<br>
+<input id="submit" type="submit" value="Submit">
+            
+</form>
+
+</div>
+</body>
